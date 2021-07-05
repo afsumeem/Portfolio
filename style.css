@@ -1,40 +1,80 @@
 body{
     font-family: 'Poppins', sans-serif;
-}
-h1{
-    font-size: 50px;
-}
-.name{
-    color: rgb(252, 124, 5);
+    margin: 0%;
 }
 section{
     display: flex;
+    height: 620px;
 }
-.bannerheading{
-    width: 50%; 
-    padding: 5px 5px 5px 50px;
+
+.top{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.bannerPara{
+    width: 50%;
+    margin: 50px 0px 0px 100px;
+    padding-right: 150px;
+}
+.bannerPara h1{
+    font-size: 50px;
+}
+.bannerPara p{
     text-align: justify;
+}
 
-
+.titleName{
+    color: rgb(241, 57, 143);
 }
 .hire-button{
     text-decoration: none;
-    background-color: rgb(255, 116, 3);
-    padding: 10px 40px;
-    border-radius: 3px;
-    background-image: linear-gradient(orange, tomato);
-    font-weight: 700;
-    color: white;
-
-}
-.bannerimg{
-    width: 50%;
+    background-image: linear-gradient(rgb(241, 57, 143), rgb(212, 167, 204));
     
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    padding: 10px 30px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.bannerimg{
+    margin-top: 80px;
 }
 .bannerimg img{
-   width: 75%;
-   height: 420px;
-   display: block;
-   margin: auto;
+    width: 100%;
+}
+.middle{
+}
+.midimg{
+   width: 50%;
+}
+.midimg img{
+    width: 90%;
+}
+
+.midPara{
+    margin-top: 100px;
+    width: 50%;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    text-align: left;
+}
+.midPara h1{
+    font-size: 40px;
+}
+.midPara p{
+    margin-right: 100px;
+}
+.resume{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(245, 120, 63, 0.87), rgb(212, 167, 204));
     
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    padding: 10px 30px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 10px;
 }
